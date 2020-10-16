@@ -1,0 +1,35 @@
+body{
+	font-family: 'Montserrat', sans-serif; /*Добавляет новый шрифт(ы) на сайт*/
+	background: #A31589; /*Устанавливает цвет фона*/
+	color: #8CFF6B; /*Задает цвет текста*/
+}
+img{
+	width: 1000px;
+	margin-left: 15%;
+}
+h1{
+	margin-left: 15%;
+	font-size: 45px; /*Задает размер шрифта*/
+}
+p{
+	margin-left: 15%;
+	font-size: 23px;
+	width: 50%;
+	line-height: 36px; /*Задает расстояние между строками*/
+	margin-bottom: 25px;
+}
+a{
+	font-size: 23px;
+	color: #6DE84A;
+	margin-left: 15%;
+	display: block; /*Элемент ведет себя как блочный*/
+	margin-bottom: 30px;
+	width: 216px;
+	transition: color 0.5s ease;
+}
+a:hover{
+	color:white;
+}
+.image2{
+	width: 600px;
+}

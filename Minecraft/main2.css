@@ -1,0 +1,33 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+	background: #A500E0;
+	color: #01F00D;
+	margin:0 auto;
+	width: 95%;
+	text-align: center;
+}
+a{
+	color:#01F00D;
+	display: block;
+	text-decoration: none;
+	transition: color 0.5s ease; /*Добавляет плавность*/
+}
+img{
+	width:69%;
+}
+div{
+	width: 800px;
+	text-align: center;
+	display: inline-block;
+}
+h1{
+	font-size: 40px;
+	text-transform: uppercase; /*Делает все буквы заглавными*/
+}
+h3{
+	font-size: 24px;
+	color:#8CFF6B;
+}
+a:hover{ /*Изменяет свойство элементы при наведении на него мышкой*/
+	color:white;
+}
