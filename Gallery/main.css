@@ -1,0 +1,50 @@
+body{
+	margin: 0;
+	background: #5781FF;
+
+
+
+}
+.cont{
+	background: #F5B100;
+	width: 77%;
+	margin:0 auto;
+	box-shadow: 0px 0px 15px 10px rgba(0,0,0,0.2); /*Создает тень к элементу*/
+	padding-bottom: 100px;
+}
+h1{
+	text-align: center;
+	margin: 0;
+	padding-top: 30px; /*Внутренний отступ*/
+	padding-bottom: 30px;
+	font-family: 'Oswald', sans-serif;
+	text-shadow: -2px 1px white; /*Делает тень к тексту*/
+	color:#1A3EA8;
+}
+.flex{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+
+}
+a{
+	width: 40%;
+	height: 43vh; /*Задает размер исходя из высоты окна браузера (42% от высоты браузера)*/
+	border: 7px solid white;
+	transition: all 0.4s ease;
+	background: white;
+
+}
+img{
+	width: 100%;
+	height: 43vh;
+	transition: all 0.4s ease;
+	margin:0 auto;
+	align-items: center;
+}
+a:hover{
+	transform: scale(1.1); /*Меняет масштаб элемента*/
+}
+img:hover{
+	transform: scale(1.1);
+}
