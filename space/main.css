@@ -1,0 +1,76 @@
+h1{
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+	color: white;
+	text-shadow: 2px -3px black;
+	letter-spacing: 3px;
+	font-size: 50px;
+	padding-top: 30px;
+}
+body{
+	margin: 0;
+	background-image: linear-gradient(to bottom, #0066ff, #3759fc, #5348f8, #6a32f1, #7f00e8);
+	width: 100vw;
+	height: 100vh;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+img{
+	height: 550px;
+	width: 350px;
+	position: absolute;
+	border-radius: 10px;
+}
+img:nth-of-type(1){
+	top: 20%;
+	left: 20%;
+	z-index: 1;
+}
+img:nth-of-type(2){
+	top: 25%;
+	left: 30%;
+	z-index: 2;
+}
+img:nth-of-type(3){
+	top: 30%;
+	left: 50%;
+	margin-left: -175px;
+	z-index: 3;
+}
+img:nth-of-type(4){
+	top: 25%;
+	right: 30%;
+	z-index: 2;
+}
+img:nth-of-type(5){
+	top: 20%;
+	right: 20%;
+	z-index: 1;
+}
+span{
+	color: black;
+	text-shadow: 2px -2px white;
+}
+img:nth-of-type(6){
+	width: 64px;
+	height: 64px;
+	top: 3%;
+	left: 59%;
+	transform: rotate(40deg);
+}
+img:nth-of-type(7){
+	width: 200px;
+	height: 200px;
+	left: 5%;
+	top: 25%;
+
+}
+img:nth-of-type(8){
+	width: 250px;
+	height: 250px;
+	transform: rotate(220deg);
+	right: 4%;
+	bottom: 7%;
+
+}
+
