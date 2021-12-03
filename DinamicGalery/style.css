@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    font-family: 'Barlow', sans-serif;
+    height: 100vh;
+    background-color: rgb(20 30 39);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.galery{
+    width: 100%;
+    display: flex;
+    padding: 0 30px;
+}
+.slide:nth-of-type(1){
+    background-image: url("img/car1.jpg");
+}
+.slide:nth-of-type(2){
+    background-image: url("img/car2.jpg");
+}
+.slide:nth-of-type(3){
+    background-image: url("img/car3.jpg");
+}
+.slide:nth-of-type(4){
+    background-image: url("img/car4.jpg");
+}
+.slide:nth-of-type(5){
+    background-image: url("img/car5.jpg");
+}
+.slide{
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+    border-radius: 20px;
+    color: white;
+    margin: 10px;
+    flex: 1;
+    position: relative;
+    transition: 0.7s;
+    overflow: hidden;
+}
+h3{
+    position: absolute;
+    bottom: 3%;
+    left: 5%;
+    font-size: 25px;
+    margin: 0;
+    opacity: 0;
+}
+.active{
+    flex: 10;
+}
+.active>h3{
+    opacity: 1;
+    transition: opacity 0.7s;
+}
