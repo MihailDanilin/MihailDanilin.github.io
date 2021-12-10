@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    height: 100vh;
+    background: rgb(37, 36, 36);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.plate{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 500px;
+}
+.button{
+    width: 25px;
+    height: 25px;
+    margin: 2px;
+    background: rgb(66, 57, 57);
+    box-shadow: 0 0 2px black;
+    transition: 2s ease;
+}
+.button:hover{
+    transition-duration: 0s;
+}
